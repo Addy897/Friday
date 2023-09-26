@@ -1,0 +1,6 @@
+pyttsx3
+requests
+SpeechRecognition
+html5lib
+PyAudio
+beautifulsoup4
