@@ -87,7 +87,9 @@ class Friday():
                                         rep=random.choice(library().leaving)
                                         self.speak(rep)
                                         exit(0)
-			
+			elif("what is your name" in cmd.lower())
+				rep=f"my name is {self.name}" 
+				self.speak(rep)
                         elif("play" in cmd and "song" in cmd):
                                 cmd=cmd.replace("from youtube","")
                                 self.speak("Playing "+cmd.replace("play","")+"from youtube")
